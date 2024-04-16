@@ -1,6 +1,7 @@
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/accountsdb
+    driver-name: com.mysql.cj.jdbc
     username: root
     password: root
   jpa:
